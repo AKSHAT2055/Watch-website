@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  
+}
 * {
     margin: 0%;
     padding: 0%;
@@ -13,7 +18,9 @@
 .logo_img {
     height: 3rem;
 }
-
+.logo_img:active{
+    border: 5px solid purple;
+}
 .navbar_ul {
     margin-top: 7px;
     display: flex;
@@ -97,8 +104,11 @@ button{
 .sponsor_img{
     height: 40px;
 }
+.bill_gates_div{
+    box-sizing: border-box;
+}
 .bill_gates{
-    
+    box-sizing: border-box;
     border-right: 1px solid black;
 }
 .text-footer{
@@ -110,6 +120,12 @@ button{
 text-decoration: none;
 }
 .footer_logo{
-    height: 20px;
+    height: 25px;
 }
-
+.scroll_logo{
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    bottom: 10px;
+    right: 20px;
+}
